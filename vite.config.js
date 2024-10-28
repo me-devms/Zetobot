@@ -12,10 +12,6 @@ export default defineConfig({
             // Define the path to your locale files
             include: path.resolve(__dirname, 'lang/**')
         }),
-        laravel({
-            input: [],
-            refresh: true,
-        }),
         i18n(),
     ],
 });
