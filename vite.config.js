@@ -13,7 +13,7 @@ export default defineConfig({
             include: path.resolve(__dirname, 'lang/**')
         }),
         laravel({
-            input: ['resources/css/app.css', 'resources/js/app.js'],
+            input: [],
             refresh: true,
         }),
         i18n(),
